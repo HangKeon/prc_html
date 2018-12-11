@@ -29,10 +29,17 @@ h2
 p
 {
   font-size: 15px;
+  margin-bottom: 50px;
 }
 li
 {
   font-size: 20px;
+}
+img                     /*img의 커서 모양을 클릭 모양으로 바꿔줌.*/
+{
+  cursor: pointer;
+  width: 25%;
+  height: 5%;
 }
 #grid
 {
@@ -45,7 +52,7 @@ li
   padding-right:20px;
   padding-bottom: 20px;
 }
-@media(max-width:800px)
+@media(max-width:800px)   /*창의 넓이가 800px보다 작을 경우*/
 {
   #grid
   {
@@ -60,11 +67,11 @@ li
     border: none;
   }
 }
-@media (max-width:600px)
+@media (max-width:600px)  /*창의 넓이가 600px보다 작을 경우*/
 {
   body
   {
     background-color:coral;
   }
-  
+
 }
